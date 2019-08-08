@@ -1,0 +1,78 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: text/1_Introducao.aux
+A level-1 auxiliary file: text/2_Referencial_Teorico.aux
+A level-1 auxiliary file: text/3_Metodo.aux
+A level-1 auxiliary file: text/4_Resultados.aux
+A level-1 auxiliary file: text/5_Conclusao.aux
+The style file: ifglibs/abnt.bst
+Database file #1: bib/references.bib
+Warning--I didn't find a database entry for "buchenau2000experience"
+Warning--I didn't find a database entry for "pressmanengenharia"
+Warning--I didn't find a database entry for "gonccalves2007"
+Warning--I didn't find a database entry for "pereira2018desenvolvimento"
+Warning--I didn't find a database entry for "mendes2009programaccao"
+Warning--I didn't find a database entry for "springboot"
+Warning--I didn't find a database entry for "lecheta2015web"
+Warning--I didn't find a database entry for "silberschatz2016sistema"
+Warning--I didn't find a database entry for "santana2019nosql"
+Warning--I didn't find a database entry for "mongodb"
+Warning--I didn't find a database entry for "costa2017email"
+Warning--I didn't find a database entry for "w3c"
+Warning--I didn't find a database entry for "2013bootstrap"
+Warning--I didn't find a database entry for "pencil"
+Warning--I didn't find a database entry for "pmbok"
+Warning--I didn't find a database entry for "xavier2005metodologia"
+Warning--I didn't find a database entry for "sato2007uso"
+Warning--I didn't find a database entry for "prikladnicki2014metodos"
+Warning--I didn't find a database entry for "schwaber2004agile"
+Warning--I didn't find a database entry for "pressman2016engenharia"
+Warning--I didn't find a database entry for "de2003engenharia"
+Warning--I didn't find a database entry for "ascencio2008fundamentos"
+Warning--I didn't find a database entry for "rios2006teste"
+Warning--I didn't find a database entry for "costa2006estrategia"
+Warning--I didn't find a database entry for "rezende2006engenharia"
+Warning--I didn't find a database entry for "resolucao"
+You've used 1 entry,
+            2371 wiz_defined-function locations,
+            614 strings with 4935 characters,
+and the built_in function-call counts, 1351 in all, are:
+= -- 146
+> -- 7
+< -- 22
++ -- 85
+- -- 8
+* -- 67
+:= -- 120
+add.period$ -- 5
+call.type$ -- 1
+change.case$ -- 16
+chr.to.int$ -- 2
+cite$ -- 1
+duplicate$ -- 181
+empty$ -- 55
+format.name$ -- 18
+if$ -- 271
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 5
+num.names$ -- 5
+pop$ -- 42
+preamble$ -- 1
+purify$ -- 1
+quote$ -- 0
+skip$ -- 76
+stack$ -- 0
+substring$ -- 84
+swap$ -- 114
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 5
+warning$ -- 0
+while$ -- 10
+width$ -- 0
+write$ -- 3
+(There were 26 warnings)
