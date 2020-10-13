@@ -386,7 +386,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
 \newcommand{\MainChapterFormat}{
    \renewcommand{\chapnumfont}{%     % define font for chapter number
      \usefont{T1}{pnc}{b}{n}%      % choose New Chancery, bold, normal shape
-    \fontsize{18}{100}%          % font size 100pt, baselineskip 100pt
+    \fontsize{44}{100}%          % font size 100pt, baselineskip 100pt
      \selectfont%                  % activate font
    }
 
@@ -396,7 +396,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
      {\bfseries}
      {\chapnumfont\textcolor{chapnumcol}{\thechapter}}
      {-24pt}
-     {\normalsize}
+     {\huge}
 }
 
 \newcommand{\formatMainmatterChapter}{
@@ -475,7 +475,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
 
 %% Fonts
 
-\newcommand\quotefont{\normalfont\normalsize}
+%\newcommand\quotefont{\normalfont\normalsize}
 \newcommand\quotefonti{\it\normalsize}
 
 
@@ -699,7 +699,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
   %\onehalfspacing
   \pagestyle{empty}
   \gdef\@keywordsname{\keywordsnamePT}
-  \chapter*{\resumoname}
+  \chapter*{{\huge \resumoname}}
   \thispagestyle{empty}}
 
 
@@ -714,7 +714,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
   %\onehalfspacing
   \gdef\@keywordsname{\keywordsnameEN}
   \pagestyle{empty}
-  \chapter*{\abstrname}
+  \chapter*{{\huge \abstrname}}
   \thispagestyle{empty}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -792,7 +792,7 @@ requirements for the degree of \@degree\ in \@majorfielden.
 
    \pagestyle{empty}
 
-   \chapter*{\@tocname}
+   \chapter*{{\huge \@tocname}}
 
    \thispagestyle{empty}
 
@@ -803,30 +803,30 @@ requirements for the degree of \@degree\ in \@majorfielden.
 
 \renewcommand\listoffigures{%
    \pagestyle{empty}
-   \chapter*{\@listoffiguresname}
+   \chapter*{{\huge \@listoffiguresname}}
    \thispagestyle{empty}
    \@starttoc{lof}}
 
 \renewcommand\lstlistoflistings{%
   \pagestyle{empty}
-  \chapter*{\@lstlistingname}
+  \chapter*{{\huge \@lstlistingname}}
   \thispagestyle{empty}
   \@starttoc{lol}}
 
 
 \renewcommand\listoftables{%
    \pagestyle{empty}
-   \chapter*{\@listoftablesname}
+   \chapter*{{\huge \@listoftablesname}}
    \thispagestyle{empty}
    \@starttoc{lot}}
 
 \newcommand{\listofacronyms}{%
    \pagestyle{empty}
    \if\@language1
-      \chapter*{\acronymname}
+      \chapter*{{\huge \acronymname}}
       \thispagestyle{empty}
    \else\if\@language0
-      \chapter*{\acronimoname}
+      \chapter*{{\huge \acronimoname}}
       \thispagestyle{empty}
    \fi\fi}
 
